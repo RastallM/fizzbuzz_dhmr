@@ -1,7 +1,11 @@
 def fizzbuzz(n)
-  if n % 3 == 0
+  if n % 3 == 0 && n % 5 == 0
+    'fizzbuzz'
+  elsif n % 3 == 0
     return "fizz"
-  else
+  elsif n % 5 == 0
     return "buzz"
+  else
+    n
   end
 end
