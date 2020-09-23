@@ -1,3 +1,7 @@
 def fizzbuzz(n)
-  'fizz'
+  if n % 3 == 0
+    return "fizz"
+  else
+    return "buzz"
+  end
 end
